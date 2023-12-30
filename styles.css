@@ -9,7 +9,7 @@ body{
     margin-top: 40px;
     border-radius: 5%;
     background-color: #585858;
-    width: 360px;
+    width: 320px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); /* Add box shadow */
 }
 .center-button{
@@ -61,7 +61,7 @@ body{
     justify-content: flex-end;
     align-items: center;
     background-color: #bed1be;
-    width: 300px;
+    width: 280px;
     height: 60px;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
     font-size: x-large;
