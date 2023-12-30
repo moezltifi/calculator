@@ -22,6 +22,10 @@ for(var i=0; i<buttons.length; i++){
                 }
             }
             else if (this.id=="mark="){
+                if ( marksList.includes(screenValue.charAt(screenValue.length-1))){
+                    valueToBeCalculated=valueToBeCalculated.slice(0,valueToBeCalculated.length-1)
+                }
+
                 console.log((valueToBeCalculated).toString());
                 screenValue=eval(valueToBeCalculated).toString();
                 valueToBeCalculated=screenValue
@@ -62,6 +66,7 @@ for(var i=0; i<buttons.length; i++){
                 valueToBeCalculated+="*";
                 screenValue+=this.innerText;
             }
+          
             else{
                 valueToBeCalculated+=this.innerText;
                 screenValue+=this.innerText;
