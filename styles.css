@@ -55,6 +55,7 @@ body{
 
 
 .affichage{
+    font-family: 'Calculator', sans-serif;                                         
     border-radius: 6%;
     margin: 20px ;
     display: flex;
