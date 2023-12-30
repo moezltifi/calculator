@@ -1,18 +1,22 @@
 const buttons=document.getElementsByTagName("button")
 
 var screenValue = "";
+var calculatedValue = "";
 
 for(var i=0; i<buttons.length; i++){
-    buttons[i].addEventListener("click" , buttonsinner)
+    buttons[i].addEventListener("click" , buttonsinner);
 
     function buttonsinner(){
         if (this.id=="mark="){
-            screenValue = "";
+            console.log(eval(screenValue).toString());
+            calculatedValue=eval(screenValue).toString();
+
+            screenValue = calculatedValue;
         }
         else{
-            screenValue+=this.innerText
+            screenValue+=this.innerText;
         }
-        buttons[i]= document.getElementById("screen").innerHTML=screenValue
+        document.getElementById("screen").innerHTML=screenValue;
     }
 
     
