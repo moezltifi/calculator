@@ -56,13 +56,17 @@ body{
 
 .affichage{
     border-radius: 6%;
-    margin: 20px;
+    margin: 20px ;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
     background-color: #bed1be;
     width: 300px;
     height: 60px;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+    font-size: x-large;
+    overflow-x: auto; /* Enable horizontal scrollbar if needed */
+    white-space: nowrap; /* Prevent text from wrapping */
 }
 
 .calculator-edges{
