@@ -1,0 +1,71 @@
+/* Add this to your "styles.css" file or create a new one */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 40px;
+    border-radius: 5%;
+    background-color: #585858;
+    width: 360px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); /* Add box shadow */
+}
+.center-button{
+    justify-content: center;
+    display: flex;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.bouton{
+    font-size: xx-large;
+    font-weight: 700;
+    border-radius: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
+    width: 85px;
+    height: 50px;
+    border: 1px solid transparent; 
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.nombre {
+    background-color: #f8f9fa;
+    color: #333333;
+
+}
+.nombre:hover {
+    background-color: #e9ecef;
+}
+
+.equals {
+    background-color: #f7b351;
+    color: #fff;
+}
+.equals:hover {
+    background-color: #fec28e;
+}
+
+
+.affichage{
+    border-radius: 6%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #bed1be;
+    width: 300px;
+    height: 60px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+.calculator-edges{
+    margin-left: 10px;
+    margin-right: 10px;
+}
